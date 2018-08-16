@@ -11,7 +11,6 @@ def fizzbuzz(int)
     nil 
   end
 end  
-binding.pry
 
 fizzbuzz(25)
 
