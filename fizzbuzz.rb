@@ -12,7 +12,7 @@ def fizzbuzz(int)
     nil 
   end
 end  
-fizzbuzz(23)
+fizzbuzz(25)
 
 # gem - essentially a library in Ruby, like the debugger in JS.
 # google Pry Repo - there's a class called binding, binding.pry stops the code processing
