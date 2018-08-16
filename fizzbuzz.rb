@@ -1,9 +1,9 @@
-#require 'pry'
+require 'pry'
 
 def fizzbuzz(int)
   if int % 3 == 0 && int % 5 == 0
     "FizzBuzz" 
-    #binding.pry
+    binding.pry
   elsif int % 3 == 0
     "Fizz"
   elsif int % 5 == 0
@@ -12,3 +12,6 @@ def fizzbuzz(int)
     nil 
   end
 end  
+
+# gem - essentially a library in Ruby, like the debugger in JS.
+# google Pry Repo - there's a class called binding, binding.pry stops the code processing
