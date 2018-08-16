@@ -10,8 +10,8 @@ def fizzbuzz(int)
   else 
     nil 
   end
-  binding.pry
 end  
+binding.pry
 fizzbuzz(25)
 
 # gem - essentially a library in Ruby, like the debugger in JS.
